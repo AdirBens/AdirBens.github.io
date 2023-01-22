@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Adir Ben-Shimol</title>
+    <meta name="author" content="Adir Ben-Shimol" />
+    <meta name="description" content="Computer-Science Student @Reichman University.
+                                      Cyber Security enthusiast, a die-hard fan of FC Barcelona,
+                                      and a Zionist at my whole heart" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/logo/circles_blk.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" media="all">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+<div class="body">
+    <div id="top"></div>
+    <nav>
+        <div class="container-row" id="navbar">
+            <div class="container-col navbar-logo">
+                <a href="#top">
+                    <img src="assets/logo/logo_blk.png" alt="AdirBenShimol logo">
+                </a>
+            </div>
+            <div class="container-col navbar-sections">
+                <div class="container-row">
+                    <a class="clickable nav" href="#about-me">about</a>
+                    <a class="clickable nav" href="#my-skills">my skills</a>
+                    <a class="clickable nav" href="#contact-me">contact me</a>
+                </div>
+            </div>
+            <div class="container-col">
+                <div class="container-row navbar-social">
+                    <a href="https://www.instagram.com/adirbens">
+                        <img class="clickable icon" alt="My Instagram" loading="lazy" src="assets/icons/instagram_blk.png">
+                    </a>
+                    <a href="https://www.twitter.com/adirbens">
+                        <img class="clickable icon" alt="My Twitter" loading="lazy" src="assets/icons/twitter_blk.png">
+                    </a>
+                    <a href="https://github.com/AdirBens">
+                        <img class="clickable icon" alt="My Github" loading="lazy" src="assets/icons/github_blk.png">
+                    </a>
+                </div>
+            </div>
+            <div class="container-col" id="navbar-cv">
+                <button class="clickable btn" id="cv-btn" name="cv-btn">Get My CV</button>
+            </div>
+        </div>
+    </nav>
+    <div class="container-col popup" id="popup">
+        <img src="assets/icons/cv_blk.png">
+        <h2>Glad you want my resume!</h2>
+        <h4>What do you look for recruiting?</h4>
+        <div id="must-choose-cv"></div>
+        <div class="radio-tile-group" id="designation">
+            <div class="input-container">
+                <input class="radio-button" type="radio" id="rnd" name="designation" value="rnd">
+                <div class="radio-tile">
+                    <label for="rnd" class="radio-tile-label">R&D</label>
+                </div>
+            </div>
+            <div class="input-container">
+                <input class="radio-button" type="radio" id="analyst" name="designation" value="anl">
+                <div class="radio-tile">
+                    <label for="analyst" class="radio-tile-label">Analyst</label>
+                </div>
+            </div>
+            <div class="input-container">
+                <input class="radio-button" type="radio" id="pm" name="designation" value="pm">
+                <div class="radio-tile">
+                    <label for="pm" class="radio-tile-label">Product Manager</label>
+                </div>
+            </div>
+        </div>
+        <div class="container-row" id="popup-buttons">
+            <div class="container-col" id="cv-download-cont">
+                <button type="button" class="clickable" id="cv-download">Get My CV <strong>&#9996;</strong></button>
+            </div>
+            <div class="container-col" id="pop-close">
+                <button type="button" id="pop-close-btn">&#10060;</button>
+            </div>
+        </div>
+    </div>
+    <section id="introduce">
+        <div class="container-row">
+            <div class="container-col" id="intro-text">
+                <h3><span style="font-size: 1.5em">✋</span> Hello, my name is</h3>
+                <h1><strong>Adir.</strong></h1>
+                <h2>Computer Science Student and Software Developer</h2>
+                <p>
+                    I am 26 years old and live with my partner in Tel Aviv.
+                    I will soon finish the second year of B.Sc.
+                    study at the computer science department of Reichman University.
+                    I am passionate about technology and especially like to research and keep up with
+                    the buzzing news of the Cyber-Security world.
+                </p>
+                <button class="clickable btn act" id="btn-get-in-touch" name="btn-get-in-touch">
+                    <img class="icon" src="assets/icons/chat_white.png" alt="get in touch">
+                    Get In Touch
+                </button>
+            </div>
+            <div class="container-col img" id="intro-img">
+                <img src="assets/img/the_next_peak.jpeg" alt="picture: always looking for the next edge">
+            </div>
+        </div>
+    </section>
+    <section id="banner-container" class="container-row">
+        <div class="banner">
+            <div class="banner-infinite-content">
+                <ul class="banner-text">
+                    <li>Calculus</li>
+                    <li>*</li>
+                    <li>Algebra</li>
+                    <li>*</li>
+                    <li>Algorithms</li>
+                    <li>*</li>
+                    <li>DataStructures</li>
+                    <li>*</li>
+                    <li>CyberSecurity</li>
+                    <li>*</li>
+                    <li>HackTheBox</li>
+                    <li>*</li>
+                </ul>
+                <ul aria-hidden="true" class="banner-text">
+                    <li>Calculus</li>
+                    <li>*</li>
+                    <li>Algebra</li>
+                    <li>*</li>
+                    <li>Algorithms</li>
+                    <li>*</li>
+                    <li>DataStructures</li>
+                    <li>*</li>
+                    <li>CyberSecurity</li>
+                    <li>*</li>
+                    <li>HackTheBox</li>
+                    <li>*</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="about-me" class="container-row">
+        <div class="container-row" id="about-header">
+            <div class="container-col" id="about-img-col">
+                <img id="about-img" src="assets/img/temporary.jpeg" alt="adir temp">
+            </div>
+            <div class="container-col" id="about-txt-col">
+                <h1><span style="color: #485fc7">About</span> Adir</h1>
+                <p class="description">
+                    Creative and hardworking, with a strong passion for learning and technology.
+                    Knows to lead processes independently or in a group.
+                    Has a broad vision and ability to make decisions.
+                </p>
+            </div>
+        </div>
+        <div class="container-row" id="about-body">
+            <div class="container-col" id="about-education">
+                <div class="about-title">🎓 Education</div>
+                <div class="container-col">
+                    <h4>University Reichman</h4>
+                    <div class="container-row about">
+                        <h5>B.Sc. Computer Science</h5>
+                        <h5>2021 - 2024</h5>
+                    </div>
+                </div>
+                <div class="container-col">
+                    <h4>IDF Cyber-Security School</h4>
+                    <div class="container-row  about">
+                        <h5>Studies programming, data and network research in 8200 unit cyber-security school.</h5>
+                        <h5>2018 - 2019</h5>
+                    </div>
+                    <div class="container-row about">
+                        <h5>Studies RF Signals Analysis and processing in 8200 unit SIGINT school.</h5>
+                        <h5>2014 - 2015</h5>
+                    </div>
+                </div>
+                <div class="container-col">
+                    <h4>Psychometric - SAT Test</h4>
+                    <div class="container-row about">
+                        <h5>Accomplished Grade 721</h5>
+                        <h5>2021</h5>
+                    </div>
+                </div>
+                <div class="container-col">
+                    <h4>High-School - Biotechnology</h4>
+                    <div class="container-row about">
+                        <h5>Graduate with great honor - 115 mean</h5>
+                        <h5>2014</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="container-col" id="about-experience">
+                <div class="about-title">💼 Experience</div>
+                <div class="container-col">
+                    <h4>IDF XXX 1337</h4>
+                    <div class="container-row about">
+                        <h5>XXX Tech Team Leader 1337</h5>
+                        <h5>2021 - today</h5>
+                    </div>
+                </div>
+                <div class="container-col">
+                    <h4>IDF CCC</h4>
+                    <div class="container-row  about">
+                        <h5>Research of YYY Using ZZZ</h5>
+                        <h5>2019 - 2021</h5>
+                    </div>
+                </div>
+                <div class="container-col">
+                    <h4>IDF BBB</h4>
+                    <div class="container-row about">
+                        <h5>BBB Head of Platoon Dealing XYZ.</h5>
+                        <h5>2017 - 2019</h5>
+                    </div>
+                </div>
+                <div class="container-col">
+                    <h4>IDF AAA</h4>
+                    <div class="container-row about">
+                        <h5>CCC Team member Responsible for ABC</h5>
+                        <h5>2015-2017</h5>
+                    </div>
+                </div>
+                <div class="container-col">
+                    <h4>High-School - Biotechnology</h4>
+                    <div class="container-row about">
+                        <h5>Graduate with great honor - 115 mean</h5>
+                        <h5>2014</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="my-skills" class="container-row">
+        <div class="container-row" id="skills">
+            <h1>My <span style="color: #485fc7">Skills</span></h1>
+        </div>
+        <div class="container-row" id="skill-row">
+            <div class="container-col" id="skill-left">
+                <div class="skill-box">
+                    <h4>What can I do for you</h4>
+                    <p>
+                        I known as a `problem solver`. I can handle unreachable, complicated, technological problems and
+                        break them down to a fragments that can be solved one-by-one to the wide solution.
+                        I Am familiar with Cyber-Security research and various software technologies
+                    </p>
+                </div>
+            </div>
+            <div class="container-col" id="skill-center">
+                <div class="skill-box green">
+                    <h4>What can you expect</h4>
+                    <p>
+                        I Get my jobs with a hugh motivation and passion.
+                        Embracing learn, Don’t get stuck in old ways of doing things and explores new strategies.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact-me" class="container-row">
+        <div class="container-row">
+            <div class="container-col" id="contact-me-title">
+                <h1 style="rotate: -4deg"><span style="color: #485fc7">Keep In Touch </span>It's Easy!</h1>
+            </div>
+            <div class="container-col" id="contact-me-desc">
+                <h3><strong>Want to talk?</strong> you can leave me an email with details and Im prommise to answere</h3>
+            </div>
+        </div>
+        <div class="container-row" id="send-mail">
+            <a class="clickable btn mail" href="mailto:benshimol.adir@post.runi.ac.il
+                ?subject=Hi Adir, I would like to make an appointment
+                &body=Just visited at your site and i want to ...">
+                <img class="icon send-mail" src="assets/icons/chat_blk.png" alt="get in touch">
+                Send Me Email now!
+            </a>
+        </div>
+    </section>
+    <footer>
+        <div class="container-row" id="foot-navbar">
+            <div class="container-col footer-logo">
+                <a href="#top"><img src="assets/logo/circles_blk.png" alt="AdirBenShimol circles"></a>
+            </div>
+            <div class="container-col navbar-sections" id="nav-sec-footer">
+                <div class="container-row">
+                    <a class="clickable nav" href="#about-me">about</a>
+                    <a class="clickable nav" href="#my-skills">my skills</a>
+                    <a class="clickable nav" href="#contact-me">contact me</a>
+                </div>
+                <div class="container-row">
+                    <div class="container-row">
+                        <a href="https://www.instagram.com/adirbens">
+                            <img class="clickable icon" alt="My Instagram" loading="lazy" src="assets/icons/instagram_blk.png">
+                        </a>
+                        <a href="https://www.twitter.com/adirbens">
+                            <img class="clickable icon" alt="My Twitter" loading="lazy" src="assets/icons/twitter_blk.png">
+                        </a>
+                        <a href="https://github.com/AdirBens">
+                            <img class="clickable icon" alt="My Github" loading="lazy" src="assets/icons/github_blk.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-col" id="footer-text">
+                <p>
+                    Hope you enjoy!<br>
+                    This site is my submission to Exercise 06 in AdvancedProgramming-Course 3030 @Reichman University!
+                </p>
+            </div>
+            <div class="container-col" id="luigi-gif">
+                <img src="assets/img/luigi_hat.gif" alt="luigi avatar as my nickname is luigi :)">
+            </div>
+        </div>
+        <div class="container-row" id="buy-me-coffee">
+            <img src="assets/icons/rhino.png" alt="rhino - coffee houses @Reichman">
+            See Me @<a href="https://www.runi.ac.il/" style="text-decoration: none"> Reichman</a> -Campus? Be Nice, Buy Me a Coffee &#9749;
+        </div>
+
+    </footer>
+</div>
+</body>
+</html>
